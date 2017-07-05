@@ -1,8 +1,6 @@
 #include "worker.h"
 #include "define.h"
 
-
-
 Worker *Worker::instance()
 {
     static Worker inst;
